@@ -30,7 +30,7 @@
 //**    others from doing anything the license permits.
 //**
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#SENDMAIL_VERSION                   init            "1.0.0"                     // local variable: version of the sendmail module
+#SENDMAIL_VERSION                   init            "1.0.2"                     // local variable: version of the sendmail module
 #SENDMAIL_SSL                       form            "1"                         // flag for SSL connections
 #SENDMAIL_TLS                       form            "2"                         // flag for TLS connections
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -90,7 +90,7 @@ smtp                                record          like SENDMAIL_SMTPINFO  // r
 //* @return SENDMAIL_VERSION - DIM string containing version number in nn.nn.n format
 //*
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-GetVersion function
+GETVERSION function
     entry
 
     return using #SENDMAIL_VERSION

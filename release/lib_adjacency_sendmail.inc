@@ -48,5 +48,6 @@ SENDMAIL_ERROR_FAIL                 const           "1"             // general f
 SENDMAIL_ERROR_SSL_SETTING          const           "2"             // an invalid SSL setting was used
 
 SENDMAIL_SEND                       external        "lib_adjacency_sendmail.plc;SENDMAIL"
+SENDMAIL_GETVERSION                 external        "lib_adjacency_sendmail.plc;GETVERSION"
     %ENDIF                                                          // end include-once directive
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
